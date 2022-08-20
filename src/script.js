@@ -40,7 +40,7 @@ document.querySelector('button[type="submit"]').addEventListener(
 			return showAndHideErrorMessage();
 		}
 		if (isPhoneRequired && !phoneField.value) {
-			//	return showAndHideErrorMessage();
+			return showAndHideErrorMessage();
 		}
 		if (
 			!emailField.value.match(
